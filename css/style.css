@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+b{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+    position: relative;
+}
+
+body *{
+    font-family: 'Hubballi', cursive;
+    
+}
+
+.header-content{
+    height:100vh;
+    background-image: url('../img/vintage-bg.png');
+    background-size: cover;
+    background-color: gray;
+}
+
+form{
+    padding: 16px;
+    margin-bottom: 100px;
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    
+    
+}
+.answer{
+    margin-top: 2em;
+}
+
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 221, 241);
+    left: 5vw;
+    top: 7vh;
+    height: calc(100vh - 8em);
+    width: 90%;
+    border-radius: 8px;
+    position: absolute;
+
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.05);
+    width: calc(100% - 5em);
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5em;
+}
+
+
+button{
+    background-color: rgb(138, 59, 125);
+    cursor: pointer;
+    border-radius: 8px;
+    width: calc(100% - 5em);
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgb(230, 230, 230);
+}
+button:hover{
+    background-color: rgb(175, 57, 156);
+}
+
+.reset{
+    position: absolute;
+    bottom: 3em;
+    margin: 0;
+    width: calc(50vw - 11.5em );
+    left: calc(50.335px - 16px + 25vw);
+
+}
+.reset div > button{
+    background-color: rgb(111, 54, 148);
+}
+.reset div > button:hover{
+    background-color: rgb(133, 67, 177);
+}
